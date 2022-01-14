@@ -99,4 +99,73 @@ function pass() {
         console.log(true);
     }
 }
-pass();*/
+pass();
+*/
+
+
+/*
+var dayNumber = parseInt(prompt("Rango de valores 0-6:\nDía de la semana, ingresa un dato:"));
+
+
+switch (dayNumber){
+    case 0:
+        alert("El día es Domingo");
+    break;
+    case 1:
+        alert("El día es Lunes");
+    break;
+    case 2:
+        alert("El día es Martes");
+    break;
+    case 3:
+        alert("El día es Miercoles");
+    break;
+    case 4:
+        alert("El día es Jueves");
+    break;
+    case 5:
+        alert("El día es Viernes");
+    break;
+    case 6:
+        alert("El día es Sabado");
+    break;
+    default:
+        alert("Número de día inválido");
+}
+
+if(dayNumber===0){
+    alert("El día es Domingo");
+}else if(dayNumber===1){
+    alert("El día es Lunes");
+}else if(dayNumber===2){
+    alert("El día es Martes");
+}else if(dayNumber===3){
+    alert("El día es Miercoles");
+}else if(dayNumber===4){
+    alert("El día es Jueves");
+}else if(dayNumber===5){
+    alert("El día es Viernes");
+}else if(dayNumber===6){
+    alert("El día es Sabado");
+}else{
+    alert("Número de día inválido");
+}
+
+alert("Esta Función Muestra una alerta para comprobar si eres Digno jajaja XD");
+
+var usuario = prompt("¿Cuál es tu nombre?");
+var edad = parseInt(prompt("¿Cuál es tu edad?"));
+
+comprobar(edad);
+
+function comprobar(entrada){  
+    if(entrada>=18&&entrada<29){
+        alert("Hola "+usuario+"\n¡Felicidades, cumples con los requisitos para ser aceptado en el Bootcamp Java Full Stack de Generation!");
+    }else if(!(entrada>=18&&entrada<29)){
+        alert("Hola "+usuario+"\nNo cumples con los requisitos para el programa");
+    }else{
+        alert("Hola "+usuario+"\nOpción invalida");
+    }
+    console.log("Infromación Recopilada: \n"+usuario+"\n"+edad);
+}
+*/
